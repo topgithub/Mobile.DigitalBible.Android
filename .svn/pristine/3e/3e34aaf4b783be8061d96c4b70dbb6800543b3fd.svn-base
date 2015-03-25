@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DigitalBible</string>
+	<string name="settings_string">Settings</string>
+
+	<!-- Headers -->
+	<string name="libraries_string">Libraries</string>
+	<string name="books_string">Books</string>
+	<string name="chapters_string">Chapters</string>
+	<string name="menu_string">Menu</string>
+	<string name="go_to_string">Go To</string>
+
+	<!-- Menu Strings -->
+	<string name="go_to_verse_string">Go To Verse</string>
+	<string name="switch_library_string">Switch Library</string>
+	<string name="search_string">Search</string>
+	<string name="exit_string">Exit</string>
+
+	<!-- Go To Verse Strings -->
+	<string name="chapter_short_string">Chpt</string>
+	<string name="colon">:</string>
+	<string name="verse_short_string">Vrs</string>
+	<string name="verse_input_string">Verse Input</string>
+	<string name="invalid_input_string">Input invalid!</string>
+	<string name="fill_out_fields_string">Input invalid! Please fill out the fields.</string>
+	<string name="select_library_string">Please select a library.</string>
+
+	<!-- Single Verse Strings -->
+	<string name="previous_string">Previous</string>
+	<string name="next_string">Next</string>
+	<string name="share_string">Share</string>
+
+	<!-- Search Strings -->
+	<string name="bible_search_string">Bible Search</string>
+	<string name="search_result_string">Search Result</string>
+	<string name="no_search_result_string">No search result</string>
+	<string name="enter_search_word_string">Input invalid! Please enter a word/phrase.</string>
+
+	<!-- Reading Options Strings -->
+	<string name="reading_options_string">Reading Options</string>
+
+	<!-- Imported Strings -->
+	<string name="back_string">Back</string>
+	<string name="error_string">Error</string>
+	<string name="do_you_wish_to_exit_string">Do you wish to exit?</string>
+</resources>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white" >
+	<RelativeLayout
+		android:id="@+id/singleVerseBodyLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/white" >
+		<TextView
+			android:id="@+id/singleVerseSubtitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="12dp"
+			android:textSize="16sp"
+			android:textStyle="bold" >
+		</TextView>
+		<TextView
+			android:id="@+id/singleVerseBody"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/singleVerseSubtitle"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="12dp"
+			android:gravity="center_horizontal"
+			android:textSize="12sp" >
+		</TextView>
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:baselineAligned="false"
+		android:orientation="horizontal"
+		android:weightSum="2" >
+		<RelativeLayout
+			android:id="@+id/singleVersePreviousButton"
+			android:layout_width="0dip"
+			android:layout_height="38dp"
+			android:layout_weight="1"
+			android:background="@drawable/background_selector" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:text="@string/previous_string"
+				android:textColor="@color/black"
+				android:textSize="14sp" >
+			</TextView>
+		</RelativeLayout>
+		<RelativeLayout
+			android:id="@+id/singleVerseNextButton"
+			android:layout_width="0dip"
+			android:layout_height="38dp"
+			android:layout_weight="1"
+			android:background="@drawable/background_selector" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:text="@string/next_string"
+				android:textColor="@color/black"
+				android:textSize="14sp" >
+			</TextView>
+		</RelativeLayout>
+	</LinearLayout>
+</RelativeLayout>
+

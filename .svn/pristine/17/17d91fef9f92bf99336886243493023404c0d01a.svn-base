@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/white" >
+	<RelativeLayout
+		android:id="@+id/goToHeaderLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/digital_bible_color" >
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_margin="6dp"
+			android:textColor="@color/white"
+			android:textSize="20sp"
+			android:text="@string/verse_input_string" >
+		</TextView>
+	</RelativeLayout>
+	<LinearLayout
+		android:id="@+id/goToInputLayout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/goToHeaderLayout"
+		android:layout_centerHorizontal="true"
+		android:orientation="horizontal" >
+		<Spinner
+			android:id="@+id/goToVerseSpinner"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+		</Spinner>
+		<EditText
+			android:id="@+id/goToVerseEditChapter"
+			android:layout_width="56dp"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:imeOptions="actionNext"
+			android:maxLength="3"
+			android:inputType="number"
+			android:hint="@string/chapter_short_string" >
+		</EditText>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:text="@string/colon" >
+		</TextView>
+		<EditText
+			android:id="@+id/goToVerseEditVerse"
+			android:layout_width="52dp"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:imeOptions="actionSearch"
+			android:maxLength="2"
+			android:inputType="number"
+			android:hint="@string/verse_short_string" >
+		</EditText>
+	</LinearLayout>
+	<RelativeLayout
+		android:id="@+id/goToVerseButton"
+		android:layout_width="86dp"
+		android:layout_height="38dp"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/goToInputLayout"
+		android:background="@drawable/background_selector" >
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="@string/go_to_verse_string"
+			android:textColor="@color/black"
+			android:textSize="14sp" >
+		</TextView>
+	</RelativeLayout>
+</RelativeLayout>
+
